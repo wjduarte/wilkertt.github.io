@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Pessoal usando HTML CSS Javascript</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---Header -->
+    <header>
+      <a href="#" class="logo">Portfolio <span>Dev.</span></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navlist">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Formação">Formação</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contato">Contato</a></li>
+      </ul>
+
+      <div class="top-btn">
+        <a href="#Contato" class="h-btn">Contate-me</a>
+      </div>
+    </header>
+
+    <!---Hero -->
+    <section class="hero" id="Home">
+      <div class="main-content">
+        <h4>Olá!</h4>
+        <h1>sou <span>Wilkertt Duarte</span></h1>
+        <p>
+          brasileiro, graduando em Tecnologia de Análise e Desenvolvimento de
+          Sistemas pelo Centro Universitário Internacional UNINTER.
+        </p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/wjduarte/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="https://github.com/wjduarte" target="_blank"><i class="ri-github-fill"></i></a>
+          <a href="https://x.com/Wilkertt" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+          <a href="https://www.notion.so/" target="_blank"><i class="ri-notion-line"></i></a>
+        </div>
+
+        <div class="main-btn">
+          <a href="#Sobre" class="btn"> Sobre Mim </a>
+          <a href="https://github.com/wjduarte" target="_blank" class="btn btn2"> Repositório github</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="Sobre">
+      <div class="about-img">
+        <img src="./img/cachoeira.png" alt="" />
+      </div>
+
+      <div class="about-text">
+
+        <h2>
+          Sou <span>Administrador</span> <br />
+          pós graduado em Administração pública e atualmente em processo de
+          transição para a carreira DEV.
+        </h2>
+        <p>
+          Amante do mundo da Tecnologia, sou lidado a area de TI desde minha
+          infancia, entretando outros objetivos pessoais me fizeram não
+          trabalhar de fato no desenvolvimento ainda na juventude. Fã de
+          cachoeira e trilhas, praticante de Karatê de contato estilo Uechi Ryu.
+          e atuo tambem com Produção e Sonorização de Eventos.
+        </p>
+        <div class="exp-area">
+          <p class="exp">
+            Localidade:
+            <span>Goiânia, GO</span>
+          </p>
+          <p class="exp">
+            Email:
+            <span>wilkertt@gmail.com</span>
+          </p>
+          <a href="#Portfolio" class="btn">Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formação -->
+    <section class="education" id="Formação">
+      <div class="center-text">
+        <h2>Minha <span>Formação</span></h2>
+      </div>
+
+      <div class="education-content">
+        <div class="box">
+          <h3>Administração</h3>
+          <p>Bacharel em Administração pela UNIFAN/2013</p>
+
+          <h3>Pós Graduação em Adminsitração Publica</h3>
+          <p>
+            UNIFAN 2018 - O curso de Pós-Graduação em Administração Pública: Ênfase no
+            Controle Interno e Externo tem como objetivo qualificar os
+            participantes para que fiscalizem e acompanhem as atividades
+            administrativas, contábeis, orçamentárias, financeiras, patrimoniais
+            e operacionais, desenvolvidas pelos gestores das entidades públicas
+            no sentido de assegurar o cumprimento dos princípios básicos que
+            regem a administração pública, ou seja, princípios da legalidade,
+            impessoalidade, moralidade, publicidade e eficiência.
+            </p>
+
+            <h3>Desenho e Alinhamento de Sistemas de Sonorização</h3>
+            <p>
+              Curso de Desenho e alinhamento de Sistemas de Som para Grandes eventos. ministrado pelo Engenheiro de Audio Alexandre Rabaço realizado na UFG-GO
+            </p>
+
+            <h3>Tecnologia em Analise e Desenvolvimento de Sistemas UNINTER</h3>
+            <p>
+              Cursando Graduação tecnologa em Analise de Desenvolvimento de sistemas pela UNINTER/2025
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="Portfolio" id="Portfolio">
+      <div class="center-text">
+        <h2>Meu <span>Portfolio</span></h2>
+      </div>
+
+      <div class="Portfolio-content">
+        <div class="row">
+          <img src="./img/nwl.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Card NLW</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/wjduarte/cracha-nlw" target="_blank"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <h4>Card Next Level Week - Rocketseat</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/ecommerce.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>API E-commerce</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/wjduarte/Api-ecommerce" target="_blank"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <h4>Api e-commerce desenvolvida em Python durante as aulas da UNINTER</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/construction.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Portfolio3</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Portfolio em construção</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/construction.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Portfolio em Construção</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Portfolio em construção</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/construction.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Portfolio em Construção</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Portfolio em construção</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/construction.png" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Portfolio em Construção</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Portfolio em Construção</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="Contact" id="Contato">
+      <div class="contact-text">
+        <h2>Contate -<span> me</span></h2>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Digite seu nome" required />
+          <input type="email" placeholder=" Digite seu e-mail.." required />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Digite sua mensagem aqui..."
+            required
+          ></textarea>
+          <input
+            type="submit"
+            name=""
+            value="Enviar Mensagem"
+            class="send-btn"
+          />
+        </form>
+      </div>
+    </section>
+
+    <!--- Footer -->
+    <div class="footer">
+      <div class="copyright">
+        <p>
+          2024 Wilkertt Duarte, porftolio aula UNINTER, All Rights Reserverd.
+        </p>
+      </div>
+      <a href="#Home" class="scroll-top">
+        <i class="ri-arrow-up-s-fill"></i>
+      </a>
+      </div>
+
+    <!--- js link-->
+    <script src="scripts.js"></script>
+  </body>
+</html>
